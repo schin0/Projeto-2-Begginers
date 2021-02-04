@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+#empresa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: gray;
+    padding: 0vh 10vw;
+    font-family: 'Yantramanav', sans-serif;
+    text-shadow: 1px 1px rgb(75, 75, 75);
+    font-size: 1.2em;
+}
+
+.empresapartes {
+    padding: 3vh 8vw;
+    text-decoration: none;
+    color: black;
+}
+
+/* Fim header */
+
+/* Main */
+
+#title-2{
+    width: 100%;
+}
+
+#search{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh 0vw;
+    width: 100%;
+    font-family: 'Righteous', cursive;
+}
+
+#search:hover{
+    text-shadow: 5px 10px 10px tomato;
+    transition: 1s ease-in-out;
+}
+
+.div-empresa {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#img-tecnologia{
+    width: 30%;
+    margin-bottom: 5vh;
+}
+
+.txt-empresa{
+    font-family: 'Yantramanav', sans-serif;
+    width: 50%;
+    margin: 1vh 0vw;
+}
+
+/* Fim Main */
+
+/* Redes sociais */
+
+#redes-sociais {
+    border-top: rgb(177, 175, 175) 1px inset;
+    font-family: 'Righteous', cursive;
+    display: flex;
+    justify-content: center;
+    padding: 2vh 0vw;
+}
+
+#seguir {
+    font-family: 'Yantramanav', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.imagens-rede {
+    display: flex;
+    justify-content: center;
+    margin: 1vh;
+}
+
+.final-img{
+    display: flex;
+    justify-content: center;
+}
+
+.imagens-rede {
+    width: 1.5vw;
+}
+
+.tiralinha {
+    text-decoration: none;
+    color: black;
+    text-shadow: gray 2px 1px 2px;
+}
+
+
+/* Fim redes sociais */

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#div-business {
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    font-family: 'Yusei Magic', sans-serif;
+    padding: 1vh;
+}
+
+.div-business {
+    display: flex;
+    justify-content: center;
+    margin: 1vh;
+}
+
+.h3div {
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Imagem */
+
+#imgbusiness {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#businessimg {
+    width: 50%;
+}
+
+#businessimg:hover{
+    box-shadow: 5px 5px 15px green;
+}
+
+/* Fim imagem */
+
+#mudacima {
+    width: 100%;
+    text-decoration: none;
+    color: green;
+    position: relative;
+}
+
+#mudacima::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+}
+
+#mudacima:hover::after {
+    width: 100%;
+    transition: width 1s ease-in-out
+}

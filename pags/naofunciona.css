@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    text-shadow: black 1px 2px 10px;
+}
+
+main{
+    background-image: url('https://exame.com/wp-content/uploads/2019/08/trabalho-em-equipe.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div-func{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragrafo-func {
+    padding: 5vh 2vw;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1em;
+}
+
+#lista-func {
+    font-size: 1.2em;
+}
+
+.paragrafo-lista{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1em;
+}
+
+.itens-func{
+    font-family: 'Staatliches', cursive;
+}

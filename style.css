@@ -1,0 +1,241 @@
+:root {
+    --color-claro1: #85aafa;
+    --color-claro2: #f0f0f0;
+    --color-claro3: #adadad;
+    --rodape: #6a6a6a;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#centro-cima {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.9em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cor-fundo {
+    background-color: var(--color-claro2);
+}
+
+.cor-fundo-escuro {
+    background-color: #3d3d3d;
+    color: var(--color-claro2);
+}
+
+/* COMEÇO Header */
+
+header {
+    display: flex;
+    height: 8vh;
+    width: 100vw;
+    background-color:var(--color-claro1);
+}
+
+#comeco {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.comandos {
+    width: 3vw;
+    height: 6vh;
+    padding: 0.7vw;
+    margin: 0.5vh 0.5vw 0 0;
+}
+
+#linha1 {
+    margin: 2vh 10vw 2vh 10vw;
+    width: 55vw;
+    border: 1px rgb(0, 0, 0) inset;
+    display: flex;
+    align-items: center;
+    font-size: 1.3vw;
+}
+
+/* FIM Header */
+
+/* COMEÇO CantoDireito */
+
+#tudo-junto {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#meio {
+    width: 90vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.txt-meio {
+    font-size: 1em;
+    margin: 2vh 0vw 0vh 1vw;
+    text-decoration: none;
+    color: black ;
+}
+
+.txt-meio:hover{
+    color: var(--color-claro1);
+}
+
+#img-direita {
+    margin-left: 0;
+    width: 10%;
+}
+
+.canto-direito {
+    width: 20%;
+    height: 75%;
+    margin: 2vh 1vw;
+}
+
+/* FIM CantoDireito */
+
+/* COMEÇO Pesquisa */
+
+#centro {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo {
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo {
+    background-color: var(--color-claro1);
+}
+
+.tituloMudou {
+    color: red;
+}
+
+#div-centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pesquisa-centro{
+    width: 35%;
+    font-size: 1.2em;
+    margin: 2vh 1vw;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 25px;
+    outline: none;
+    padding: 1px;
+}
+
+#img-centro{
+    width: 3vw;
+    height: 6vh;
+    margin: 0.5vw 0.5vw 0 0;
+
+}
+
+#btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn1 {
+    width: 8%;
+    background-color: var(--color-claro1);
+}
+
+#btn1:hover{
+    width: 10%;
+    background-image: url('https://super.abril.com.br/wp-content/uploads/2018/07/500dad5a9827684fc200011cbebe-chorando-site.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#dentro-btn1 {
+    text-decoration: none;
+    color: black;
+}
+
+/* FIM Pesquisa */
+
+/* COMEÇO Footer */
+
+
+
+#final {
+    background-color: var(--color-claro3);
+    border: black inset 1px;
+}
+
+.brasil {
+    margin-left: 1vw ;
+}
+
+#rodape {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.cor-fim {
+    background-color: var(--color-claro3);
+    border: black inset 1px;
+}
+
+.mudaACor {
+    background-color: #6a6a6a;
+}
+
+#esquerda {
+    width: 32%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 1vh 0vw;
+}
+
+.esquerda0 {
+    margin-left: 1vw ;
+}
+
+.txt {
+    text-decoration: none;
+    color: black;
+}
+
+.txt:hover{
+    color: var(--color-claro2);
+}
+
+#direita {
+    width: 23%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 1vh 1vw;
+}
+
+.direita{
+    margin-right: 1vw;
+}
+
+/* FIM Footer */

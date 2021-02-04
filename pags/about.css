@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main */
+
+
+
+#maior {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient( to right, blue, white);
+}
+
+.divs-2 {
+    display: flex;
+    justify-content: center;
+    margin: 1vh 0vw;
+}
+
+img {
+    box-shadow: 1px 1px black;
+}
+
+img:hover{
+    box-shadow: 1px 1px 10px black;
+}
+
+#link90 {
+    text-decoration: none;
+    color: gray;
+    text-shadow: 1px 1px black;
+}
+
+.paragrafos-1 {
+    font-size: 1.3em;
+    margin-bottom: 1vh;
+}
+
+/* Fim Main */

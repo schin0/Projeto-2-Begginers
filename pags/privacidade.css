@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    background-image: url('https://image.freepik.com/fotos-gratis/estrelas-e-galaxia-espaco-sideral-ceu-noite-universo-preto_146539-811.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#titleInicio {
+    color: red;
+}
+
+.div-sec {
+    display: flex;
+    justify-content: center;
+    margin: 5vh 2vw;
+}
+
+.h3-sec {
+    font-size: 2em;
+    color: #ffa7ff;
+    text-shadow: white 5px 5px 10px;
+}
+
+#img-fim {
+    display: flex;
+    justify-content: center;
+}
+
+#imgh:hover {
+    box-shadow: 1px 1px 10px #ffa7ff;
+}

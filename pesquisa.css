@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@700&display=swap');
+
+:root {
+    --color-claro1: #85aafa;
+    --color-claro2: #f0f0f0;
+    --color-claro3: #adadad;
+    --rodape: #6a6a6a;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    height: 8vh;
+    width: 100vw;
+    background-color:var(--color-claro1);
+}
+
+#linha2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#title-left{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh;
+    border: 1px inset black;
+}
+
+#title-dentro {
+    color: var(--color-claro1);
+    padding: 5px;
+    font-family: 'Blinker', sans-serif;
+}
+
+#pesquisa {
+    font-family: 'Blinker', sans-serif;
+    width: 42%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    outline: none;
+    padding-left: 6%;
+    font-size: 2em;
+}
+
+#img-direita {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.canto-direito{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+#comeco {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.comandos {
+    width: 3vw;
+    height: 6vh;
+    padding: 0.7vw;
+    margin: 0.5vh 0.5vw 0 0;
+}
+
+#linha1 {
+    font-family: 'Blinker', sans-serif;
+    margin: 2vh 1vw 2vh 10vw;
+    width: 55vw;
+    color: black;
+    border: 1px rgb(0, 0, 0) inset;
+    border-radius: 15px;
+    outline: none;
+    display: flex;
+    align-items: center;
+    font-size: 1.3vw;
+    padding-left: 1vw;
+}
+
+/* FIM HEADER */
+
+/* Começa canto direito */
+
+#img-direita {
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#canto-direito {
+    width: 30%;
+    height: 75%;
+}
+
+#canto-Direito {
+    width: 100%;
+    border-radius: 25px;
+    margin-right: 2vw;
+}
+
+/* Fim canto direito */
+
+/* Resultados */
+
+#colunas {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#coluna-esquerda{
+    width: 50%;
+    border-right: 1px inset var(--color-claro1);
+}
+
+.volta-texto:hover{
+    box-shadow: inset var(--color-claro1) 10px 10px 8px;
+}
+
+.url-site {
+    font-family: 'Blinker', sans-serif;
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-resultado{
+    font-family: 'Yusei Magic', sans-serif;
+    padding-left: 5%;
+}
+
+.conteudo-resultado {
+    font-family: 'Lora', serif;
+    padding-left: 5%;
+    width: 90%;
+}
+
+.conteudo-mais{
+    text-decoration: none;
+    color: var(--color-claro1);
+}
+
+#coluna-direita {
+    width: 50%;
+    padding-top: 2.5%;
+}
+
+#resultado-imagens {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+
+/* FIM Resultados */
+
+/* imgs */
+
+#resultado-imagens {
+}
+
+.imgs5 {
+    width: 260px;
+    height: 170px;
+    margin: 10px;
+    box-shadow: var(--color-claro1) 10px 10px 10px;
+}
+
+#conteudo-resultado1{
+    margin-top: 5%;
+    padding-left: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FIM imgs */

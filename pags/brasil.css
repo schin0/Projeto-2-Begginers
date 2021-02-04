@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Goldman&display=swap');
+
+:root{
+    --bcgcolor: green;
+    --bgccolor: yellow;
+    --bgccolor1: blue; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fbff00;
+    color: blue;
+}
+
+/* CABEÇALHO */
+
+
+#cabecalho0 {
+    background-color: var(--bcgcolor);
+    width: 100vw;
+    padding: 3vh 0vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho0 {
+    background-color: var(--bcgcolor);
+    margin: 0vh 10vw;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: var(--bcgcolor1)
+}
+
+.cabecalho1 {
+    width: 100% ;
+    font-family: 'Cabin', sans-serif;
+    background-color: var(--bcgcolor);
+    position: relative;
+    text-shadow: 1.4px 2.4px black;;
+}
+
+.cabecalho1::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background-color: var(--bgccolor);
+}
+
+.cabecalho1:hover::after {
+    width: 100%;
+    transition: width 0.5s ease-in-out
+}
+
+#cabecalho000 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#img-0 {
+    margin-left: 10px;
+    width: 25%;
+    padding: 1vw;
+}
+
+/* FIM CABEÇALHO */
+
+/* Sobre Br */
+
+.div-br{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content:center ;
+    align-items:center;
+}
+
+.sobre-br {
+    width: 55%;
+    font-size: 1.5em;
+    color: white;
+    background-color: var(--bcgcolor);
+    text-shadow: 1px 2px black;
+}
+
+/* FIM Sobre Br */
+
+/* Mapa */
+
+#mapa-br {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+}
+
+#mapa {
+    box-shadow:10px 5px 31px  var(--bcgcolor);
+}
+
+/* FIM Mapa */
+
+/* Lista */
+
+#lista1 {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 1.7em;
+    color: var(--bgccolor1);
+    text-shadow: 1px 1px black;
+}
+
+#lista-1 {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itens {
+    color: var(--bcgcolor);
+    font-size: 1.2em;
+    text-shadow: 1px 1px black;
+}
+
+/* Fim Lista */
+
+/* Opinião */
+
+.opiniao {
+    width: 100%;
+    margin-top: vh;
+    display: flex;
+    justify-content: center;
+}
+
+.txtbr {
+    width: 55%;
+    font-size: 1.5em;
+    text-shadow: 1px 2px black;
+    color: white;
+    background-color: var(--bcgcolor);
+}
+
+/* Fim Opinião */
+
+/* Video */
+
+#conheca{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Fim Video */
